@@ -1,11 +1,11 @@
 <template>
   <div class="col-span-1">
     <div class="flex flex-col p-8 bg-white shadow-md hover:shodow-lg rounded-2xl">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col md:flex-row items-center md:justify-between">
         <div class="font-medium leading-none">{{ state.site?.name }}</div>
         <button
           :class="[
-            'flex-no-shrink  px-5 ml-4 py-2 text-sm shadow-sm hover:shadow-lg font-medium tracking-wider border-2  rounded-full outline-none focus:outline-none',
+            'flex-no-shrink mt-4 md:mt-0 px-5 ml-4 py-2 text-sm shadow-sm hover:shadow-lg font-medium tracking-wider border-2  rounded-full outline-none focus:outline-none',
             accessible
               ? 'border-green-300 bg-green-300 text-white'
               : 'border-gray-300 bg-gray-300 text-grey-500',

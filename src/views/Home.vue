@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col justify-center items-center px-2">
     <h2 class="my-4 text-4xl font-bold">NMRL Sites Portal</h2>
     <hr class="bg-white border mb-4 w-full" />
-    <div class="grid grid-cols-4 gap-2">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
       <SiteLink v-for="site in state.sites" :key="site.name" :site="site" />
     </div>
   </div>

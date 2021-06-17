@@ -13,7 +13,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/vue-fontawesome": "^3.0.0-1",
     "global": "^4.4.0",
-    "http-server": "^0.12.3",
     "sweetalert2": "^11.0.16",
     "tailwindcss": "^1.8.10",
     "vue": "^3.0.0",
