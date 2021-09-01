@@ -50,12 +50,12 @@ export default defineComponent({
           ipExternal: 'https://196.27.127.58:3643',
         },
         {
-          name: 'kadoma Laboratory',
+          name: 'Kadoma Laboratory',
           ipInternal: 'http://192.168.0.26:80',
           ipExternal: 'https://196.27.127.58:2643',
         },
         {
-          name: 'Aibst Laboratory',
+          name: 'AIBST Laboratory',
           ipInternal: 'http://192.168.0.48:80',
           ipExternal: 'https://196.27.127.58:4843',
         },
@@ -92,7 +92,7 @@ export default defineComponent({
         {
           name: 'Masvingo Laboratory',
           ipInternal: null,
-          ipExternal: 'https://197.155.235.2:3443',
+          ipExternal: 'http://41.174.183.45:4580', // 'https://197.155.235.2:3443',
         },
         {
           name: 'Mpilo Laboratory',
@@ -102,12 +102,22 @@ export default defineComponent({
         {
           name: 'Mutare Laboratory',
           ipInternal: 'http://192.168.0.64:80',
-          ipExternal: 'https://194.133.159.134:3443',
+          ipExternal: 'http://196.27.127.58:6480', // https://194.133.159.134:3443
         },
         {
           name: 'Gweru Laboratory',
           ipInternal: 'http://192.168.0.69:80',
           ipExternal: null,
+        },
+        {
+          name: 'POC',
+          ipInternal: 'http://192.168.0.175:80',
+          ipExternal: 'http://196.27.127.58:7580',
+        },
+        {
+          name: 'BRIDH Laboratory',
+          ipInternal: 'http://192.168.0.87:80',
+          ipExternal: 'https://196.27.127.58:8743',
         },
         {
           name: 'Chinhoyi Laboratory',
